@@ -16,10 +16,18 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Button register = findViewById(R.id.BtnNew);
+        Button BtnAccountAccepted = findViewById(R.id.BtnAccountAccepted);
         register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 changeToRegister();
+            }
+        });
+        BtnAccountAccepted.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,StatusActivity.class);
+                startActivity(intent);
             }
         });
     }
@@ -30,4 +38,5 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
 
     }
+
 }
