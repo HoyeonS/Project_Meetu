@@ -6,65 +6,125 @@
     android:layout_height="match_parent"
     tools:context=".FriendActivity">
 
-    <EditText
-        android:id="@+id/et_friend1"
-        android:layout_width="300dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="28dp"
-        android:text="friend1"
-        app:layout_constraintBottom_toTopOf="@+id/et_friend2"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Friends"
+        android:textSize="50dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteY="34dp"
         tools:ignore="MissingConstraints" />
 
-    <EditText
-        android:id="@+id/et_friend2"
-        android:layout_width="300dp"
-        android:layout_height="100dp"
+    <Button
+        android:id="@+id/btn_friend1"
+        android:layout_width="350dp"
+        android:layout_height="52dp"
+        android:text="friend1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="101dp" />
+
+    <Button
+        android:id="@+id/btn_friend2"
+        android:layout_width="350dp"
+        android:layout_height="52dp"
         android:text="friend2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="158dp" />
+        tools:layout_editor_absoluteY="153dp" />
 
-    <EditText
-        android:id="@+id/et_friend3"
-        android:layout_width="300dp"
-        android:layout_height="100dp"
-        android:layout_marginBottom="330dp"
+    <Button
+        android:id="@+id/btn_friend3"
+        android:layout_width="350dp"
+        android:layout_height="52dp"
         android:text="friend3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="292dp" />
+        tools:layout_editor_absoluteY="205dp" />
 
-    <EditText
-        android:id="@+id/et_friend4"
-        android:layout_width="300dp"
-        android:layout_height="100dp"
-        android:layout_marginBottom="190dp"
+    <Button
+        android:id="@+id/btn_friend4"
+        android:layout_width="350dp"
+        android:layout_height="52dp"
         android:text="friend4"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="264dp" />
 
-    <EditText
-        android:id="@+id/et_friend5"
-        android:layout_width="300dp"
-        android:layout_height="100dp"
-        android:layout_marginBottom="50dp"
+    <Button
+        android:id="@+id/btn_friend5"
+        android:layout_width="350dp"
+        android:layout_height="52dp"
         android:text="friend5"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="323dp" />
+
+    <Button
+        android:id="@+id/btn_friend6"
+        android:layout_width="350dp"
+        android:layout_height="52dp"
+        android:text="friend6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="383dp" />
+
+    <Button
+        android:id="@+id/btn_friend7"
+        android:layout_width="350dp"
+        android:layout_height="52dp"
+        android:text="friend7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="442dp" />
+
+    <Button
+        android:id="@+id/btn_friend8"
+        android:layout_width="350dp"
+        android:layout_height="52dp"
+        android:text="friend8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="503dp" />
+
+    <Button
+        android:id="@+id/btn_friend9"
+        android:layout_width="350dp"
+        android:layout_height="52dp"
+        android:text="friend9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="555dp" />
+
+    <Button
+        android:id="@+id/btn_friend10"
+        android:layout_width="350dp"
+        android:layout_height="52dp"
+        android:text="friend10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="607dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

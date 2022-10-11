@@ -1,68 +1,144 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".StatusActivity">
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".StatusActivity">
 
-    <EditText
-        android:id="@+id/et_name"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:text="name"
-        app:layout_constraintBottom_toTopOf="@+id/et_profile"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
+<TextView
+    android:id="@+id/et_name"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="216dp"
+    android:text="Name"
+    android:textSize="20dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.498"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:ignore="MissingConstraints" />
 
-    <EditText
-        android:id="@+id/et_profile"
-        android:layout_width="300dp"
-        android:layout_height="250dp"
-        android:layout_marginBottom="336dp"
-        android:text="profile"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints" />
+<TextView
+    android:id="@+id/et_age"
+    android:layout_width="300dp"
+    android:layout_height="40dp"
+    android:layout_marginBottom="424dp"
+    android:text="age"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.495"
+    app:layout_constraintStart_toStartOf="parent"
+    tools:ignore="MissingConstraints" />
 
-    <EditText
-        android:id="@+id/et_contact"
-        android:layout_width="300dp"
-        android:layout_height="100dp"
-        android:layout_marginBottom="136dp"
-        android:text="our contact"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints" />
+<TextView
+    android:id="@+id/et_language"
+    android:layout_width="300dp"
+    android:layout_height="40dp"
+    android:layout_marginBottom="184dp"
+    android:text="Language"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.495"
+    app:layout_constraintStart_toStartOf="parent"
+    tools:ignore="MissingConstraints" />
 
-    <Button
-        android:id="@+id/btn_edit_profile"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="edit"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.829"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="418dp" />
+<TextView
+    android:id="@+id/et_area"
+    android:layout_width="300dp"
+    android:layout_height="40dp"
+    android:layout_marginBottom="344dp"
+    android:text="Area"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.495"
+    app:layout_constraintStart_toStartOf="parent"
+    tools:ignore="MissingConstraints" />
 
-    <Button
-        android:id="@+id/btn_next"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="52dp"
-        android:text="next"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.819"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints" />
+<TextView
+    android:id="@+id/et_hobby"
+    android:layout_width="300dp"
+    android:layout_height="40dp"
+    android:layout_marginBottom="144dp"
+    android:text="Hobby"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.495"
+    app:layout_constraintStart_toStartOf="parent"
+    tools:ignore="MissingConstraints" />
+
+<TextView
+    android:id="@+id/et_favorite_library_2"
+    android:layout_width="300dp"
+    android:layout_height="40dp"
+    android:layout_marginBottom="264dp"
+    android:text="Favorite Library 2"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.495"
+    app:layout_constraintStart_toStartOf="parent"
+    tools:ignore="MissingConstraints" />
+
+<TextView
+    android:id="@+id/et_major"
+    android:layout_width="300dp"
+    android:layout_height="40dp"
+    android:layout_marginBottom="376dp"
+    android:text="major"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.495"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/et_age"
+    app:layout_constraintVertical_bias="0.0"
+    tools:ignore="MissingConstraints" />
+
+<TextView
+    android:id="@+id/et_mbti"
+    android:layout_width="300dp"
+    android:layout_height="40dp"
+    android:layout_marginBottom="224dp"
+    android:text="MBTI"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.495"
+    app:layout_constraintStart_toStartOf="parent"
+    tools:ignore="MissingConstraints" />
+
+<TextView
+    android:id="@+id/et_favorite_library_1"
+    android:layout_width="300dp"
+    android:layout_height="40dp"
+    android:layout_marginBottom="304dp"
+    android:text="Favorite Library 1"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.495"
+    app:layout_constraintStart_toStartOf="parent"
+    tools:ignore="MissingConstraints" />
+
+<Button
+    android:id="@+id/btn_edit_profile"
+    android:layout_width="126dp"
+    android:layout_height="52dp"
+    android:text="contact developer"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.803"
+    app:layout_constraintStart_toStartOf="parent"
+    tools:ignore="MissingConstraints"
+    tools:layout_editor_absoluteY="601dp" />
+
+<Button
+    android:id="@+id/btn_next"
+    android:layout_width="126dp"
+    android:layout_height="62dp"
+    android:layout_marginBottom="16dp"
+    android:text="find friends"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.803"
+    app:layout_constraintStart_toStartOf="parent"
+    tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
