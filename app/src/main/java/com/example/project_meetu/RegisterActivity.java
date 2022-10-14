@@ -1,18 +1,17 @@
 package com.example.project_meetu;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
 
+import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 
-public class FriendActivity extends AppCompatActivity {
+public class RegisterActivity extends AppCompatActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-<<<<<<< HEAD
-        setContentView(R.layout.activity_friend);
-=======
-        setContentView(R.layout.activity_friend_activity);
->>>>>>> main
+        setContentView(R.layout.activity_register);
+
     }
 }
