@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="age_selections">
+        <item>Freshman</item>
+        <item>Sophomore</item>
+        <item>Junior</item>
+        <item>Senior</item>
+    </string-array>
+    <string-array name="major_selections">
+        <item>African Cultural Studies, B.A.</item>
+        <item>African Cultural Studies, B.S.</item>
+        <item>Afro-American Studies, B.A.</item>
+        <item>Afro-American Studies, B.S.</item>
+        <item>Agricultural and Applied Economics, B.S.</item>
+        <item>Agricultural Business Management, B.S.</item>
+        <item>Agronomy, B.S.</item>
+        <item>Animal Sciences, B.S.</item>
+        <item>Anthropology, B.A.</item>
+        <item>Anthropology, B.S.</item>
+        <item>Applied Mathematics, Engineering, and Physics, B.S. AMEP</item>
+        <item>Applied Social Science, BLS</item>
+        <item>Art Education, B.S.</item>
+        <item>Art History, B.A.</item>
+        <item>Art History, B.S.</item>
+        <item>Art, B.S.</item>
+        <item>Art, BFA</item>
+        <item>Asian Languages and Cultures, B.A.</item>
+        <item>Asian Languages and Cultures, B.S.</item>
+        <item>Astronomy–Physics, B.A.</item>
+        <item>Astronomy–Physics, B.S.</item>
+        <item>Atmospheric and Oceanic Sciences, B.A.</item>
+        <item>Atmospheric and Oceanic Sciences, B.S.</item>
+        <item>Biochemistry, B.A. (LNS)</item>
+        <item>Biochemistry, B.S. (CALS)</item>
+        <item>Biochemistry, B.S. (LNS)</item>
+        <item>Biological Systems Engineering, B.S.</item>
+        <item>Biology, B.A. (LNS)</item>
+        <item>Biology, B.S. (CALS)</item>
+        <item>Biology, B.S. (LNS)</item>
+        <item>Biomedical Engineering, B.S.</item>
+        <item>Botany, B.A.</item>
+        <item>Botany, B.S.</item>
+        <item>Business Administration: Human Resources, BBA</item>
+        <item>Business Administration: Management, BBA</item>
+        <item>Business Administration: Marketing, BBA</item>
+        <item>Business: Accounting, BBA</item>
+        <item>Business: Actuarial Science, BBA</item>
+        <item>Business: Finance, Investment, and Banking, BBA</item>
+        <item>Business: Information Systems, BBA</item>
+        <item>Business: International Business, BBA</item>
+        <item>Business: Management and Human Resources, BBA</item>
+        <item>Business: Marketing, BBA</item>
+        <item>Business: Operations and Technology Management, BBA</item>
+        <item>Business: Real Estate and Urban Land Economics, BBA</item>
+        <item>Business: Risk Management and Insurance, BBA</item>
+        <item>Business: Supply Chain Management, BBA</item>
+        <item>Cartography and Geographic Information Systems, B.A.</item>
+        <item>Cartography and Geographic Information Systems, B.S.</item>
+        <item>Chemical Engineering, B.S.</item>
+        <item>Chemistry, B.A.</item>
+        <item>Chemistry, B.S.</item>
+        <item>Chinese, B.A.</item>
+        <item>Chinese, B.S.</item>
+        <item>Chinese, BSE</item>
+        <item>Civil Engineering, B.S.</item>
+        <item>Classical Humanities, B.A.</item>
+        <item>Classical Humanities, B.S.</item>
+        <item>Classics, B.A.</item>
+        <item>Classics, B.S.</item>
+        <item>Communication Arts, B.A.</item>
+        <item>Communication Arts, B.S.</item>
+        <item>Communication Sciences and Disorders, B.A.</item>
+        <item>Communication Sciences and Disorders, B.S.</item>
+        <item>Communication Sciences and Disorders, BSE</item>
+        <item>Community and Environmental Sociology, B.S.</item>
+        <item>Community and Nonprofit Leadership, B.S.</item>
+        <item>Computer Engineering, B.S.</item>
+        <item>Computer Sciences, B.A.</item>
+        <item>Computer Sciences, B.S.</item>
+        <item>Conservation Biology, B.A.</item>
+        <item>Conservation Biology, B.S.</item>
+        <item>Consumer Behavior and Marketplace Studies, B.S.</item>
+        <item>Consumer Finance and Financial Planning, B.S.</item>
+        <item>Consumer Marketplace Studies, B.S.</item>
+        <item>Dairy Science, B.S.</item>
+        <item>Dance, B.S.</item>
+        <item>Dance, BFA</item>
+        <item>Data Science, B.A.</item>
+        <item>Data Science, B.S.</item>
+        <item>Economics, B.A.</item>
+        <item>Economics, B.S.</item>
+        <item>Education Studies, B.S.</item>
+        <item>Electrical Engineering, B.S.</item>
+        <item>Elementary Education, BSE</item>
+        <item>Engineering Mechanics, B.S.</item>
+        <item>Engineering Physics, B.S.</item>
+        <item>English, B.A.</item>
+        <item>English, B.S.</item>
+        <item>Entomology, B.S.</item>
+        <item>Environmental Engineering, B.S.</item>
+        <item>Environmental Sciences, B.A. (LNS)</item>
+        <item>Environmental Sciences, B.S. (CALS)</item>
+        <item>Environmental Sciences, B.S. (LNS)</item>
+        <item>Environmental Studies Major</item>
+        <item>Food Science, B.S.</item>
+        <item>Forest Science, B.S.</item>
+        <item>French, B.A.</item>
+        <item>French, B.S.</item>
+        <item>French, BSE</item>
+        <item>Gender and Women Studies, B.A.</item>
+        <item>Gender and Women Studies, B.S.</item>
+        <item>Genetics and Genomics, B.S.</item>
+        <item>Geography, B.A.</item>
+        <item>Geography, B.S.</item>
+        <item>Geological Engineering, B.S.</item>
+        <item>Geology and Geophysics, B.A.</item>
+        <item>Geology and Geophysics, B.S.</item>
+        <item>German, B.A.</item>
+        <item>German, B.S.</item>
+        <item>German, BSE</item>
+        <item>Global Health, B.S.</item>
+        <item>Health Promotion and Health Equity, B.S.</item>
+        <item>History, B.A.</item>
+        <item>History, B.S.</item>
+        <item>Horticulture, B.S.</item>
+        <item>Human Development and Family Studies, B.S.</item>
+        <item>Individual Major, B.A.</item>
+        <item>Individual Major, B.S.</item>
+        <item>Individual Major, B.S.</item>
+        <item>Individual Major, B.S.</item>
+        <item>Individual Major, BSE</item>
+        <item>Industrial Engineering, B.S.</item>
+        <item>Information Science, B.A.</item>
+        <item>Information Science, B.S.</item>
+        <item>Interior Architecture, B.S.</item>
+        <item>International Studies, B.A.</item>
+        <item>International Studies, B.S.</item>
+        <item>Italian, B.A.</item>
+        <item>Italian, B.S.</item>
+        <item>Italian, BSE</item>
+        <item>Japanese, B.A.</item>
+        <item>Japanese, B.S.</item>
+        <item>Japanese, BSE</item>
+        <item>Jewish Studies, B.A.</item>
+        <item>Jewish Studies, B.S.</item>
+        <item>Journalism, JBA</item>
+        <item>Journalism, JBS</item>
+        <item>Kinesiology, B.S.</item>
+        <item>Landscape and Urban Studies, B.A.</item>
+        <item>Landscape and Urban Studies, B.S.</item>
+        <item>Landscape Architecture, BLA</item>
+        <item>Latin American, Caribbean, and Iberian Studies, B.A.</item>
+        <item>Latin American, Caribbean, and Iberian Studies, B.S.</item>
+        <item>Latin, B.A.</item>
+        <item>Latin, B.S.</item>
+        <item>Latin, BSE</item>
+        <item>Legal Studies, B.A.</item>
+        <item>Legal Studies, B.S.</item>
+        <item>Life Sciences Communication, B.S.</item>
+        <item>Linguistics, B.A.</item>
+        <item>Linguistics, B.S.</item>
+        <item>Materials Science and Engineering, B.S.</item>
+        <item>Mathematics, B.A.</item>
+        <item>Mathematics, B.S.</item>
+        <item>Mechanical Engineering, B.S.</item>
+        <item>Microbiology, B.A. (LNS)</item>
+        <item>Microbiology, B.S. (CALS)</item>
+        <item>Microbiology, B.S. (LNS)</item>
+        <item>Molecular and Cell Biology, B.A.</item>
+        <item>Molecular and Cell Biology, B.S.</item>
+        <item>Music, B.A.</item>
+        <item>Music, B.S.</item>
+        <item>Music: Education, B.M.</item>
+        <item>Music: Performance, B.M.</item>
+        <item>Naval Science, BNS</item>
+        <item>Neurobiology, B.A.</item>
+        <item>Neurobiology, B.S.</item>
+        <item>Nuclear Engineering, B.S.</item>
+        <item>Nursing, BSN</item>
+        <item>Nursing, BSN (Accelerated Program)</item>
+        <item>Nursing, BSN (Collaborative Program)</item>
+        <item>Nutritional Sciences, B.S.</item>
+        <item>Nutritional Sciences, B.S. Nutrition and Dietetics</item>
+        <item>Personal Finance, B.S.</item>
+        <item>Pharmaceutical Sciences, B.S.</item>
+        <item>Pharmacology and Toxicology, B.S.</item>
+        <item>Philosophy, B.A.</item>
+        <item>Philosophy, B.S.</item>
+        <item>Physical Education, B.S.</item>
+        <item>Physics, B.A.</item>
+        <item>Physics, B.S.</item>
+        <item>Plant Pathology, B.S.</item>
+        <item>Polish, B.A.</item>
+        <item>Polish, B.S.</item>
+        <item>Political Science, B.A.</item>
+        <item>Political Science, B.S.</item>
+        <item>Portuguese, B.A.</item>
+        <item>Portuguese, B.S.</item>
+        <item>Portuguese, BSE</item>
+        <item>Psychology, B.A.</item>
+        <item>Psychology, B.S.</item>
+        <item>Rehabilitation Psychology, B.S.</item>
+        <item>Religious Studies, B.A.</item>
+        <item>Religious Studies, B.S.</item>
+        <item>Russian, B.A.</item>
+        <item>Russian, B.S.</item>
+        <item>Scandinavian Studies, B.A.</item>
+        <item>Scandinavian Studies, B.S.</item>
+        <item>Social Welfare, B.A.</item>
+        <item>Social Welfare, B.S.</item>
+        <item>Social Work, BSW</item>
+        <item>Sociology, B.A.</item>
+        <item>Sociology, B.S.</item>
+        <item>Soil Science, B.S.</item>
+        <item>Spanish, B.A.</item>
+        <item>Spanish, B.S.</item>
+        <item>Spanish, BSE</item>
+        <item>Special Education, BSE</item>
+        <item>Statistics, B.A.</item>
+        <item>Statistics, B.S.</item>
+        <item>Textiles and Fashion Design, B.S.</item>
+        <item>Theatre and Drama, B.S.</item>
+        <item>Theatre, Certificate</item>
+        <item>Wildlife Ecology, B.S.</item>
+        <item>Zoology, B.A.</item>
+        <item>Zoology, B.S.</item>
+    </string-array>
+    <string-array name="place_selections">
+        <item>Near West</item>
+        <item>Downtown</item>
+        <item>Isthmus/Near East</item>
+        <item>West Madison</item>
+        <item>Near South</item>
+    </string-array>
+    <string-array name="FB_selections">
+        <item>Near West</item>
+        <item>Downtown</item>
+        <item>Isthmus/Near East</item>
+        <item>West Madison</item>
+        <item>Near South</item>
+    </string-array>
+    <string-array name="food_selections">
+        <item>Near West</item>
+        <item>Downtown</item>
+        <item>Isthmus/Near East</item>
+        <item>West Madison</item>
+        <item>Near South</item>
+    </string-array>
+    <string-array name="lang_selections">
+        <item>Near West</item>
+        <item>Downtown</item>
+        <item>Isthmus/Near East</item>
+        <item>West Madison</item>
+        <item>Near South</item>
+    </string-array>
+    <string-array name="hobby_selections">
+        <item>Near West</item>
+        <item>Downtown</item>
+        <item>Isthmus/Near East</item>
+        <item>West Madison</item>
+        <item>Near South</item>
+    </string-array>
+</resources>
