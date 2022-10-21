@@ -45,7 +45,21 @@
                 android:value="" />
         </activity>
         <activity
+            android:name=".FriendProfile"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".FriendActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+                <activity
+            android:name=".DevelopContact"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
