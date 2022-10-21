@@ -1,9 +1,6 @@
 package com.example.project_meetu;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.constraintlayout.widget.ConstraintLayout;
-
-import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.*;
@@ -15,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         Button register = findViewById(R.id.BtnNew);
         Button BtnAccountAccepted = findViewById(R.id.BtnAccountAccepted);
         register.setOnClickListener(new View.OnClickListener() {
@@ -23,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
                 changeToRegister();
             }
         });
+
         BtnAccountAccepted.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
