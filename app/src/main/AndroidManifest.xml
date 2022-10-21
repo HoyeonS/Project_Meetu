@@ -17,6 +17,27 @@
         android:theme="@style/Theme.Project_meetu"
         tools:targetApi="31">
         <activity
+            android:name=".ContactActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".NameActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".StatusActivity"
             android:exported="false">
             <meta-data
@@ -24,7 +45,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".FriendAcitivity"
+            android:name=".FriendActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
