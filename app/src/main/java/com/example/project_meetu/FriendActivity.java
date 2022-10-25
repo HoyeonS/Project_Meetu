@@ -20,7 +20,7 @@ public class FriendActivity extends AppCompatActivity{
         BtnAccountAccepted.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(FriendActivity.this,StatusActivity.class);
+                Intent intent = new Intent(FriendActivity.this,FriendProfile.class);
                 startActivity(intent);
             }
         });
