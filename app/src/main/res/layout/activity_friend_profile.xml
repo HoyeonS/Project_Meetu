@@ -26,7 +26,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Name"
-            android:textColor="#ff0000"
+            android:textColor="#b93232"
             android:textSize="20dp"
             android:layout_marginTop="8dp"
             android:textStyle="bold"
@@ -35,7 +35,7 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="#ff0000"
+            android:background="#b93232"
             android:layout_marginTop="10dp"/>
 
     </LinearLayout>
@@ -58,7 +58,7 @@
             android:layout_height="wrap_content"
             android:text= "major"
             android:textStyle="bold"
-            android:textColor="#ff0000"
+            android:textColor="#b93232"
             android:textSize="20dp"
             android:layout_marginLeft="5dp"/>
 
@@ -66,7 +66,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text= "computer science"
-            android:textColor="#ff0000"
+            android:textColor="#b93232"
             android:textSize="20dp"
             android:layout_marginLeft="60dp"/>
 
@@ -98,7 +98,7 @@
             android:layout_height="wrap_content"
             android:text= "age"
             android:textStyle="bold"
-            android:textColor="#ff0000"
+            android:textColor="#b93232"
             android:textSize="20dp"
             android:layout_marginLeft="5dp"/>
 
@@ -107,7 +107,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="80dp"
             android:text="freshman"
-            android:textColor="#ff0000"
+            android:textColor="#b93232"
             android:textSize="20dp" />
 
     </LinearLayout>
@@ -138,7 +138,7 @@
             android:layout_height="wrap_content"
             android:text= "area"
             android:textStyle="bold"
-            android:textColor="#ff0000"
+            android:textColor="#b93232"
             android:textSize="20dp"
             android:layout_marginLeft="5dp"/>
 
@@ -146,7 +146,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text= "Herb"
-            android:textColor="#ff0000"
+            android:textColor="#b93232"
             android:textSize="20dp"
             android:layout_marginLeft="75dp"/>
 
@@ -178,7 +178,7 @@
             android:layout_height="wrap_content"
             android:text= "Library 1"
             android:textStyle="bold"
-            android:textColor="#ff0000"
+            android:textColor="#b93232"
             android:textSize="20dp"
             android:layout_marginLeft="5dp"/>
 
@@ -186,7 +186,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text= "College Library"
-            android:textColor="#ff0000"
+            android:textColor="#b93232"
             android:textSize="20dp"
             android:layout_marginLeft="35dp"/>
 
@@ -218,7 +218,7 @@
             android:layout_height="wrap_content"
             android:text= "Library 2"
             android:textStyle="bold"
-            android:textColor="#ff0000"
+            android:textColor="#b93232"
             android:textSize="20dp"
             android:layout_marginLeft="5dp"/>
 
@@ -226,7 +226,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text= "Business Library"
-            android:textColor="#ff0000"
+            android:textColor="#b93232"
             android:textSize="20dp"
             android:layout_marginLeft="35dp"/>
 
@@ -258,7 +258,7 @@
             android:layout_height="wrap_content"
             android:text= "MBTI"
             android:textStyle="bold"
-            android:textColor="#ff0000"
+            android:textColor="#b93232"
             android:textSize="20dp"
             android:layout_marginLeft="5dp"/>
 
@@ -266,7 +266,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text= "ISFP"
-            android:textColor="#ff0000"
+            android:textColor="#b93232"
             android:textSize="20dp"
             android:layout_marginLeft="65dp"/>
 
@@ -298,7 +298,7 @@
             android:layout_height="wrap_content"
             android:text= "Language"
             android:textStyle="bold"
-            android:textColor="#ff0000"
+            android:textColor="#b93232"
             android:textSize="20dp"
             android:layout_marginLeft="5dp"/>
 
@@ -306,7 +306,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text= "English"
-            android:textColor="#ff0000"
+            android:textColor="#b93232"
             android:textSize="20dp"
             android:layout_marginLeft="25dp"/>
 
@@ -338,7 +338,7 @@
             android:layout_height="wrap_content"
             android:text= "Hobby"
             android:textStyle="bold"
-            android:textColor="#ff0000"
+            android:textColor="#b93232"
             android:textSize="20dp"
             android:layout_marginLeft="5dp"/>
 
@@ -346,7 +346,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text= "Soccer"
-            android:textColor="#ff0000"
+            android:textColor="#b93232"
             android:textSize="20dp"
             android:layout_marginLeft="55dp"/>
 

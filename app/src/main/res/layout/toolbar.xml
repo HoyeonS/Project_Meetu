@@ -18,7 +18,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="Profile"
-            android:textColor="#ff0000"
+            android:textColor="#b93232"
             android:textSize="16dp"
             android:gravity="center"
             android:textStyle="bold" />
@@ -28,7 +28,7 @@
     <View
         android:layout_width="wrap_content"
         android:layout_height="1dp"
-        android:background="#ff0000"
+        android:background="#b93232"
         android:layout_below="@id/profile_l1"
         android:padding="8dp"/>
 
