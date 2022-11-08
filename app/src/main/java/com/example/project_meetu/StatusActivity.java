@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.*;
 
 public class StatusActivity extends AppCompatActivity {
 
@@ -17,6 +18,8 @@ public class StatusActivity extends AppCompatActivity {
 
         Button BtnFindFriend = findViewById(R.id.btn_find_friends);
         Button BtnDeveloperContact = findViewById(R.id.btn_contact_developer);
+        TextView name = findViewById(R.id.et_name);
+        name.setText(Student.getInstance().student_name);
 
         BtnFindFriend.setOnClickListener(new View.OnClickListener() {
             @Override

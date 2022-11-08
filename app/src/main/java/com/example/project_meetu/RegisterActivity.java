@@ -23,6 +23,7 @@ public class RegisterActivity extends AppCompatActivity{
             public void onClick(View view) {
                 Intent intent = new Intent(RegisterActivity.this,NameActivity.class);
                 startActivity(intent);
+                Student client = com.example.project_meetu.Student.getInstance();
             }
         });
     }
