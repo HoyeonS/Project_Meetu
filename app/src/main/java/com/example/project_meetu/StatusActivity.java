@@ -18,8 +18,30 @@ public class StatusActivity extends AppCompatActivity {
 
         Button BtnFindFriend = findViewById(R.id.btn_find_friends);
         Button BtnDeveloperContact = findViewById(R.id.btn_contact_developer);
+
         TextView name = findViewById(R.id.et_name);
         name.setText(Student.getInstance().student_name);
+
+        TextView age = findViewById(R.id.et_age);
+        age.setText(Student.getInstance().profile_info[0]);
+
+        TextView major = findViewById(R.id.et_major);
+        major.setText(Student.getInstance().profile_info[1]);
+
+        TextView place = findViewById(R.id.et_area);
+        place.setText(Student.getInstance().profile_info[2]);
+
+        TextView fb = findViewById(R.id.et_favorite_library_1);
+        fb.setText(Student.getInstance().profile_info[3]);
+
+        TextView food = findViewById(R.id.et_mbti);
+        food.setText(Student.getInstance().profile_info[4]);
+
+        TextView lang = findViewById(R.id.et_language);
+        lang.setText(Student.getInstance().profile_info[5]);
+
+        TextView hobby = findViewById(R.id.et_hobby);
+        hobby.setText(Student.getInstance().profile_info[6]);
 
         BtnFindFriend.setOnClickListener(new View.OnClickListener() {
             @Override

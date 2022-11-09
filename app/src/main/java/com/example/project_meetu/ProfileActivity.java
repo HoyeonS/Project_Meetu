@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Spinner;
 
 public class ProfileActivity extends AppCompatActivity {
@@ -49,6 +50,28 @@ public class ProfileActivity extends AppCompatActivity {
         StartRegBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+                String age = ageSpinner.getSelectedItem().toString();
+                Student.getInstance().getProfile()[0] = age;
+
+                String major = majorSpinner.getSelectedItem().toString();
+                Student.getInstance().getProfile()[1] = major;
+
+                String place = placeSpinner.getSelectedItem().toString();
+                Student.getInstance().getProfile()[2] = place;
+
+                String fb = fBSpinner.getSelectedItem().toString();
+                Student.getInstance().getProfile()[3] = fb;
+
+                String food = foodSpinner.getSelectedItem().toString();
+                Student.getInstance().getProfile()[4] = food;
+
+                String lang = langSpinner.getSelectedItem().toString();
+                Student.getInstance().getProfile()[5] = lang;
+
+                String hobby = hobbySpinner.getSelectedItem().toString();
+                Student.getInstance().getProfile()[6] = hobby;
+
                 Intent intent = new Intent(ProfileActivity.this,ContactActivity.class);
                 startActivity(intent);
             }

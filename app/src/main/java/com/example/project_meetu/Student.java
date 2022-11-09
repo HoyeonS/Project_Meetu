@@ -16,7 +16,6 @@ public class Student extends Application {
         return instance;
     }
 
-
     public void onCreate(){
         super.onCreate();
         instance = this;
