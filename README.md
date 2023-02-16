@@ -105,8 +105,11 @@ if not => 0
   
 ### Mapping
 ** Simplest part of the algorithm **
-MySql Database student table storing users' informations -> **MEETU**
+
+MySql Database student table storing users' informations -> **MEETU SERVER**
+
 Mapping algorithm get information from the MEETU database based on information get from pick logic layers as a key
+
 <img src="https://github.com/HoyeonS/Project_Meetu/blob/ca6a1176f8ab172bd0974a707594536cf91f7980/Mapping.png"></img>
 
 
