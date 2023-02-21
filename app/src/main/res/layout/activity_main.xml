@@ -17,7 +17,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="-200dp"
-        android:textSize="50dp"
+        android:textSize="50sp"
         android:textColor="@color/white"
         android:textStyle="bold|italic"
         android:id="@+id/FirstMessage"/>
