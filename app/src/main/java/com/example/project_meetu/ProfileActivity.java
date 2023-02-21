@@ -33,6 +33,10 @@ public class ProfileActivity extends AppCompatActivity {
         ArrayAdapter<CharSequence> adapterFB = ArrayAdapter.createFromResource(this, R.array.FB_selections, android.R.layout.simple_spinner_item);
         fBSpinner.setAdapter(adapterFB);
 
+        Spinner fB2Spinner = (Spinner) findViewById(R.id.FB2Spinner);
+        ArrayAdapter<CharSequence> adapterFB2 = ArrayAdapter.createFromResource(this, R.array.FB2_selections, android.R.layout.simple_spinner_item);
+        fB2Spinner.setAdapter(adapterFB2);
+
         Spinner foodSpinner = (Spinner) findViewById(R.id.FoodSpinner);
         ArrayAdapter<CharSequence> adapterFood = ArrayAdapter.createFromResource(this, R.array.food_selections, android.R.layout.simple_spinner_item);
         foodSpinner.setAdapter(adapterFood);
@@ -63,14 +67,17 @@ public class ProfileActivity extends AppCompatActivity {
                 String fb = fBSpinner.getSelectedItem().toString();
                 Student.getInstance().getProfile()[3] = fb;
 
+                String fb2 = fB2Spinner.getSelectedItem().toString();
+                Student.getInstance().getProfile()[4] = fb2;
+
                 String food = foodSpinner.getSelectedItem().toString();
-                Student.getInstance().getProfile()[4] = food;
+                Student.getInstance().getProfile()[5] = food;
 
                 String lang = langSpinner.getSelectedItem().toString();
-                Student.getInstance().getProfile()[5] = lang;
+                Student.getInstance().getProfile()[6] = lang;
 
                 String hobby = hobbySpinner.getSelectedItem().toString();
-                Student.getInstance().getProfile()[6] = hobby;
+                Student.getInstance().getProfile()[7] = hobby;
 
                 Intent intent = new Intent(ProfileActivity.this,ContactActivity.class);
                 startActivity(intent);

@@ -267,7 +267,7 @@
         <item>Wisconsins Water Library</item>
         <item>Zoological Museum Research Library</item>
     </string-array>
-    <string-array name="food_selections">
+    <string-array name="FB2_selections">
         <item>Carsons Market</item>
         <item>Four Lakes Market</item>
         <item>Gordon Avenue Market</item>
@@ -275,16 +275,31 @@
         <item>Lowell Market</item>
         <item>Rhetas Market</item>
     </string-array>
-    <string-array name="lang_selections">
+    <string-array name="food_selections">
         <item>Chinese</item>
         <item>Mexican</item>
         <item>Italian</item>
-        <item>ThaiIndian</item>
+        <item>Thai</item>
+        <item>Indian</item>
         <item>Japanese</item>
         <item>Korean</item>
         <item>Greek</item>
         <item>Vietnamese</item>
         <item>Cuban</item>
+        <item>others</item>
+    </string-array>
+    <string-array name="lang_selections">
+        <item>English</item>
+        <item>Spanish</item>
+        <item>Chinese</item>
+        <item>Tagalog (including Filipino)</item>
+        <item>Vietnamese</item>
+        <item>Arabic</item>
+        <item>French</item>
+        <item>Korean</item>
+        <item>Russian</item>
+        <item>German</item>
+        <item>Japanese</item>
         <item>others</item>
     </string-array>
     <string-array name="hobby_selections">
