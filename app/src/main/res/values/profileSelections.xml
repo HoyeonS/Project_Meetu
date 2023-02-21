@@ -233,31 +233,73 @@
         <item>Near South</item>
     </string-array>
     <string-array name="FB_selections">
-        <item>Near West</item>
-        <item>Downtown</item>
-        <item>Isthmus/Near East</item>
-        <item>West Madison</item>
-        <item>Near South</item>
+        <item>AMP Library</item>
+        <item>AOSS Library</item>
+        <item>Arboretum Research Library</item>
+        <item>Art Library</item>
+        <item>Business Library</item>
+        <item>CCBC</item>
+        <item>Chemistry Information Commons</item>
+        <item>Chican@ and Latin@ Studies Library</item>
+        <item>College Library</item>
+        <item>Data and Information Services Center</item>
+        <item>Ebling Library</item>
+        <item>Gender and Sexuality Campus Center Library</item>
+        <item>Gender and Womens Studies Librarians Office</item>
+        <item>Geology and Geophysics Library</item>
+        <item>Historical Society-Archives</item>
+        <item>Historical Society-Library</item>
+        <item>Information School Library</item>
+        <item>Journalism Reading Room</item>
+        <item>Law Library</item>
+        <item>Limnology Library</item>
+        <item>Max Kade Institute for German-American Studies</item>
+        <item>Memorial Library</item>
+        <item>MERIT Library</item>
+        <item>Mills Music Library</item>
+        <item>Morgridge Center</item>
+        <item>Robinson Map Library</item>
+        <item>Social Work Library</item>
+        <item>Special Collections</item>
+        <item>Steenbock Library</item>
+        <item>University Archives and Records Management Services</item>
+        <item>Wisconsin Center for Film and Theater Research</item>
+        <item>Wisconsins Water Library</item>
+        <item>Zoological Museum Research Library</item>
     </string-array>
     <string-array name="food_selections">
-        <item>Near West</item>
-        <item>Downtown</item>
-        <item>Isthmus/Near East</item>
-        <item>West Madison</item>
-        <item>Near South</item>
+        <item>Carsons Market</item>
+        <item>Four Lakes Market</item>
+        <item>Gordon Avenue Market</item>
+        <item>Lizs Market</item>
+        <item>Lowell Market</item>
+        <item>Rhetas Market</item>
     </string-array>
     <string-array name="lang_selections">
-        <item>Near West</item>
-        <item>Downtown</item>
-        <item>Isthmus/Near East</item>
-        <item>West Madison</item>
-        <item>Near South</item>
+        <item>Chinese</item>
+        <item>Mexican</item>
+        <item>Italian</item>
+        <item>ThaiIndian</item>
+        <item>Japanese</item>
+        <item>Korean</item>
+        <item>Greek</item>
+        <item>Vietnamese</item>
+        <item>Cuban</item>
+        <item>others</item>
     </string-array>
     <string-array name="hobby_selections">
-        <item>Near West</item>
-        <item>Downtown</item>
-        <item>Isthmus/Near East</item>
-        <item>West Madison</item>
-        <item>Near South</item>
+        <item>cooking / baking</item>
+        <item>Reading</item>
+        <item>Outdoor activities</item>
+        <item>Video gaming</item>
+        <item>Traveling</item>
+        <item>DIY and arts and crafts</item>
+        <item>Gardening and plants</item>
+        <item>Board games / card games</item>
+        <item>Sports and fitness</item>
+        <item>Meditation and wellness</item>
+        <item>driving</item>
+        <item>music</item>
+        <item>Other</item>
     </string-array>
 </resources>

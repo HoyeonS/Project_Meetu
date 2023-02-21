@@ -20,6 +20,12 @@ public class ContactActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(ContactActivity.this,StatusActivity.class);
                 startActivity(intent);
+                /**
+                 * Retrofit interface @POST("./signup)
+                 * INPUT: Student information from instance
+                 * OUTPUT: Validality
+                 */
+
             }
         });
     }
