@@ -11,24 +11,26 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Let me introduce yourself!"
-        android:textSize="25dp"
+        android:textSize="25sp"
         android:textStyle="bold"
         android:layout_marginTop="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/textViewAge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="What school year are you in now?"
-        android:textSize="15dp"
+        android:textSize="15sp"
         android:layout_marginTop="15dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Introduction" />
+        app:layout_constraintTop_toBottomOf="@+id/Introduction"
+        tools:ignore="HardcodedText" />
 
     <Spinner
         android:id="@+id/AgeSpinner"
@@ -56,11 +58,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:text="What is your Major?"
-        android:textSize="15dp"
+        android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewAge" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewAge"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/textViewPlace"
@@ -68,11 +71,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:text="What is your area near your house?"
-        android:textSize="15dp"
+        android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewMajor" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewMajor"
+        tools:ignore="HardcodedText" />
 
     <Spinner
         android:id="@+id/PlaceSpinner"
@@ -90,11 +94,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:text="What is your favourite building"
-        android:textSize="15dp"
+        android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewPlace" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewPlace"
+        tools:ignore="HardcodedText" />
 
     <Spinner
         android:id="@+id/FBSpinner"
@@ -112,11 +117,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:text="What is your favourite food"
-        android:textSize="15dp"
+        android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewFB" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewFB"
+        tools:ignore="HardcodedText" />
 
     <Spinner
         android:id="@+id/FoodSpinner"
@@ -134,11 +140,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:text="What is your prior language"
-        android:textSize="15dp"
+        android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewFood" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewFood"
+        tools:ignore="HardcodedText" />
 
     <Spinner
         android:id="@+id/LangSpinner"
@@ -156,11 +163,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:text="What is your hobby?"
-        android:textSize="15dp"
+        android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewLang" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewLang"
+        tools:ignore="HardcodedText" />
 
     <Spinner
         android:id="@+id/HobbySpinner"
@@ -181,6 +189,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/HobbySpinner" />
+        app:layout_constraintTop_toBottomOf="@+id/HobbySpinner"
+        tools:ignore="HardcodedText" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

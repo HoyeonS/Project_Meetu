@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -27,10 +26,10 @@
             android:layout_height="wrap_content"
             android:text="Name"
             android:textColor="#b93232"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_marginTop="8dp"
             android:textStyle="bold"
-            />
+            tools:ignore="HardcodedText" />
         
         <View
             android:layout_width="match_parent"
@@ -51,7 +50,9 @@
         <ImageView
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:src="@drawable/ic_red_person"/>
+            android:src="@drawable/ic_red_person"
+            android:contentDescription="Resperson"
+            tools:ignore="HardcodedText" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -59,16 +60,18 @@
             android:text= "major"
             android:textStyle="bold"
             android:textColor="#b93232"
-            android:textSize="20dp"
-            android:layout_marginLeft="5dp"/>
+            android:textSize="20sp"
+            android:layout_marginStart="5dp"
+            tools:ignore="HardcodedText" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text= "computer science"
             android:textColor="#b93232"
-            android:textSize="20dp"
-            android:layout_marginLeft="60dp"/>
+            android:textSize="20sp"
+            android:layout_marginStart="60dp"
+            tools:ignore="HardcodedText" />
 
     </LinearLayout>
 
@@ -91,7 +94,8 @@
         <ImageView
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:src="@drawable/ic_red_person"/>
+            android:src="@drawable/ic_red_person"
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -99,16 +103,18 @@
             android:text= "age"
             android:textStyle="bold"
             android:textColor="#b93232"
-            android:textSize="20dp"
-            android:layout_marginLeft="5dp"/>
+            android:textSize="20sp"
+            android:layout_marginStart="5dp"
+            tools:ignore="HardcodedText" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="80dp"
+            android:layout_marginStart="80dp"
             android:text="freshman"
             android:textColor="#b93232"
-            android:textSize="20dp" />
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
 
     </LinearLayout>
 
@@ -131,7 +137,8 @@
         <ImageView
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:src="@drawable/ic_red_person"/>
+            android:src="@drawable/ic_red_person"
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -139,16 +146,18 @@
             android:text= "area"
             android:textStyle="bold"
             android:textColor="#b93232"
-            android:textSize="20dp"
-            android:layout_marginLeft="5dp"/>
+            android:textSize="20sp"
+            android:layout_marginStart="5dp"
+            tools:ignore="HardcodedText" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text= "Herb"
             android:textColor="#b93232"
-            android:textSize="20dp"
-            android:layout_marginLeft="75dp"/>
+            android:textSize="20sp"
+            android:layout_marginStart="75dp"
+            tools:ignore="HardcodedText" />
 
     </LinearLayout>
 
@@ -171,7 +180,8 @@
         <ImageView
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:src="@drawable/ic_red_person"/>
+            android:src="@drawable/ic_red_person"
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -179,16 +189,18 @@
             android:text= "Library 1"
             android:textStyle="bold"
             android:textColor="#b93232"
-            android:textSize="20dp"
-            android:layout_marginLeft="5dp"/>
+            android:textSize="20sp"
+            android:layout_marginStart="5dp"
+            tools:ignore="HardcodedText" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text= "College Library"
             android:textColor="#b93232"
-            android:textSize="20dp"
-            android:layout_marginLeft="35dp"/>
+            android:textSize="20sp"
+            android:layout_marginStart="35dp"
+            tools:ignore="HardcodedText" />
 
     </LinearLayout>
 
@@ -211,7 +223,8 @@
         <ImageView
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:src="@drawable/ic_red_person"/>
+            android:src="@drawable/ic_red_person"
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -219,16 +232,18 @@
             android:text= "Library 2"
             android:textStyle="bold"
             android:textColor="#b93232"
-            android:textSize="20dp"
-            android:layout_marginLeft="5dp"/>
+            android:textSize="20sp"
+            android:layout_marginStart="5dp"
+            tools:ignore="HardcodedText" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text= "Business Library"
             android:textColor="#b93232"
-            android:textSize="20dp"
-            android:layout_marginLeft="35dp"/>
+            android:textSize="20sp"
+            android:layout_marginStart="35dp"
+            tools:ignore="HardcodedText" />
 
     </LinearLayout>
 
@@ -251,7 +266,8 @@
         <ImageView
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:src="@drawable/ic_red_person"/>
+            android:src="@drawable/ic_red_person"
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -259,16 +275,18 @@
             android:text= "MBTI"
             android:textStyle="bold"
             android:textColor="#b93232"
-            android:textSize="20dp"
-            android:layout_marginLeft="5dp"/>
+            android:textSize="20sp"
+            android:layout_marginStart="5dp"
+            tools:ignore="HardcodedText" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text= "ISFP"
             android:textColor="#b93232"
-            android:textSize="20dp"
-            android:layout_marginLeft="65dp"/>
+            android:textSize="20sp"
+            android:layout_marginStart="65dp"
+            tools:ignore="HardcodedText" />
 
     </LinearLayout>
 
@@ -291,7 +309,8 @@
         <ImageView
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:src="@drawable/ic_red_person"/>
+            android:src="@drawable/ic_red_person"
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -299,16 +318,18 @@
             android:text= "Language"
             android:textStyle="bold"
             android:textColor="#b93232"
-            android:textSize="20dp"
-            android:layout_marginLeft="5dp"/>
+            android:textSize="20sp"
+            android:layout_marginStart="5dp"
+            tools:ignore="HardcodedText" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text= "English"
             android:textColor="#b93232"
-            android:textSize="20dp"
-            android:layout_marginLeft="25dp"/>
+            android:textSize="20sp"
+            android:layout_marginStart="25dp"
+            tools:ignore="HardcodedText" />
 
     </LinearLayout>
 
@@ -331,7 +352,8 @@
         <ImageView
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:src="@drawable/ic_red_person"/>
+            android:src="@drawable/ic_red_person"
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -339,16 +361,18 @@
             android:text= "Hobby"
             android:textStyle="bold"
             android:textColor="#b93232"
-            android:textSize="20dp"
-            android:layout_marginLeft="5dp"/>
+            android:textSize="20sp"
+            android:layout_marginStart="5dp"
+            tools:ignore="HardcodedText" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text= "Soccer"
             android:textColor="#b93232"
-            android:textSize="20dp"
-            android:layout_marginLeft="55dp"/>
+            android:textSize="20sp"
+            android:layout_marginLeft="55dp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
 
     </LinearLayout>
 
