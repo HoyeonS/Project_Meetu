@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:text="What school year are you in now?"
         android:textSize="15sp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="20dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -42,6 +42,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewAge" />
 
+    <TextView
+        android:id="@+id/textViewMajor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="What is your Major?"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AgeSpinner"
+        tools:ignore="HardcodedText" />
+
     <Spinner
         android:id="@+id/MajorSpinner"
         android:layout_width="200dp"
@@ -53,29 +66,16 @@
         app:layout_constraintTop_toBottomOf="@+id/textViewMajor" />
 
     <TextView
-        android:id="@+id/textViewMajor"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:text="What is your Major?"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewAge"
-        tools:ignore="HardcodedText" />
-
-    <TextView
         android:id="@+id/textViewPlace"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="20dp"
         android:text="What is your area near your house?"
         android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewMajor"
+        app:layout_constraintTop_toBottomOf="@+id/MajorSpinner"
         tools:ignore="HardcodedText" />
 
     <Spinner
@@ -92,13 +92,13 @@
         android:id="@+id/textViewFB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="20dp"
         android:text="What is your favourite library"
         android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewPlace"
+        app:layout_constraintTop_toBottomOf="@+id/PlaceSpinner"
         tools:ignore="HardcodedText" />
 
     <Spinner
@@ -116,25 +116,25 @@
         android:id="@+id/textViewFB2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="20dp"
         android:text="What is your second favourite Dining Hall?"
         android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewPlace"
+        app:layout_constraintTop_toBottomOf="@+id/FBSpinner"
         tools:ignore="HardcodedText" />
 
     <Spinner
         android:id="@+id/FB2Spinner"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="92dp"
+        android:layout_marginTop="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.511"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewFB" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewFB2" />
 
     <TextView
         android:id="@+id/textViewFood"
@@ -143,10 +143,12 @@
         android:text="What is your favourite food"
         android:textSize="15sp"
         android:textStyle="bold"
+        android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="HardcodedText,MissingConstraints"
+        app:layout_constraintTop_toBottomOf="@+id/FB2Spinner"
         tools:layout_editor_absoluteY="427dp" />
 
     <Spinner
@@ -156,7 +158,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="466dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewFood"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -166,11 +169,13 @@
         android:text="What is your prior language"
         android:textSize="15sp"
         android:textStyle="bold"
+        android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="HardcodedText,MissingConstraints"
-        tools:layout_editor_absoluteY="500dp" />
+        app:layout_constraintTop_toBottomOf="@+id/FoodSpinner"
+        />
 
     <Spinner
         android:id="@+id/LangSpinner"
@@ -180,6 +185,8 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="542dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLang"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -193,7 +200,9 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="HardcodedText,MissingConstraints"
-        tools:layout_editor_absoluteY="586dp" />
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/LangSpinner"
+        />
 
     <Spinner
         android:id="@+id/HobbySpinner"
