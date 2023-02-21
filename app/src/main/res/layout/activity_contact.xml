@@ -16,7 +16,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:textSize="30dp"/>
+        android:textSize="30sp"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/textViewIntro"
@@ -25,20 +26,24 @@
         android:layout_marginTop="100dp"
         android:gravity="center_horizontal"
         android:text="I need your hello message!!"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
 
     <EditText
         android:id="@+id/intro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="Here comes the introduction or Hello message?"
+        android:autofillHints="Hello Everyone"
+        android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewIntro" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewIntro"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/textViewContact"
@@ -47,11 +52,12 @@
         android:layout_marginTop="250dp"
         android:gravity="center_horizontal"
         android:text="Finally, put your contact informations"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
 
     <EditText
         android:id="@+id/contact"
@@ -59,10 +65,13 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
         android:hint="Here comes the introduction or Hello message?"
+        android:autofillHints="Nice to meet you!"
+        android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewContact" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewContact"
+        tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/btn_contact_activity"
@@ -73,7 +82,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@+id/contact" />
+        app:layout_constraintTop_toBottomOf="@+id/contact"
+        tools:ignore="HardcodedText" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
