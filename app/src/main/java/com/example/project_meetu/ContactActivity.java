@@ -25,6 +25,7 @@ public class ContactActivity extends AppCompatActivity {
                  * INPUT: Student information from instance
                  * OUTPUT: Validality
                  */
+                // HelloWorld
 
             }
         });
