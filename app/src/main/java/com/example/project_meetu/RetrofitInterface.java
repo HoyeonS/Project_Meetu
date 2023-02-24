@@ -1,6 +1,7 @@
 package com.example.project_meetu;
 
 import java.util.HashMap;
+import java.util.List;
 
 import retrofit2.Call;
 import retrofit2.http.Body;
@@ -29,7 +30,7 @@ public interface RetrofitInterface {
      * @return other student information from mapped list
      */
     @POST("./generate")
-    Call<Student> executeGenerate (@Body HashMap<String, String> map);
+    Call<List<String>> executeGenerate (@Body HashMap<String, String> map);
 
 
     /**
