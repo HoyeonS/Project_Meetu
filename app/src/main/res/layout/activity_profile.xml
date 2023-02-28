@@ -23,9 +23,9 @@
         android:id="@+id/textViewAge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:text="What school year are you in now?"
         android:textSize="15sp"
-        android:layout_marginTop="20dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -46,7 +46,7 @@
         android:id="@+id/textViewMajor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="8dp"
         android:text="What is your Major?"
         android:textSize="15sp"
         android:textStyle="bold"
@@ -69,7 +69,7 @@
         android:id="@+id/textViewPlace"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="8dp"
         android:text="What is your area near your house?"
         android:textSize="15sp"
         android:textStyle="bold"
@@ -92,7 +92,7 @@
         android:id="@+id/textViewFB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="8dp"
         android:text="What is your favourite library"
         android:textSize="15sp"
         android:textStyle="bold"
@@ -116,7 +116,7 @@
         android:id="@+id/textViewFB2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="8dp"
         android:text="What is your second favourite Dining Hall?"
         android:textSize="15sp"
         android:textStyle="bold"
@@ -140,16 +140,15 @@
         android:id="@+id/textViewFood"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:text="What is your favourite food"
         android:textSize="15sp"
         android:textStyle="bold"
-        android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="HardcodedText,MissingConstraints"
         app:layout_constraintTop_toBottomOf="@+id/FB2Spinner"
-        tools:layout_editor_absoluteY="427dp" />
+        tools:ignore="HardcodedText,MissingConstraints" />
 
     <Spinner
         android:id="@+id/FoodSpinner"
@@ -166,16 +165,15 @@
         android:id="@+id/textViewLang"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:text="What is your prior language"
         android:textSize="15sp"
         android:textStyle="bold"
-        android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="HardcodedText,MissingConstraints"
         app:layout_constraintTop_toBottomOf="@+id/FoodSpinner"
-        />
+        tools:ignore="HardcodedText,MissingConstraints" />
 
     <Spinner
         android:id="@+id/LangSpinner"
@@ -193,16 +191,15 @@
         android:id="@+id/textViewHobby"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:text="What is your hobby?"
         android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="HardcodedText,MissingConstraints"
-        android:layout_marginTop="20dp"
         app:layout_constraintTop_toBottomOf="@+id/LangSpinner"
-        />
+        tools:ignore="HardcodedText,MissingConstraints" />
 
     <Spinner
         android:id="@+id/HobbySpinner"

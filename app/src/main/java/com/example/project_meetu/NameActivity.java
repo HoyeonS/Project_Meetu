@@ -17,16 +17,14 @@ public class NameActivity extends AppCompatActivity {
 
         Button StartRegBtn = findViewById(R.id.StartPrfBtn);
 
-        StartRegBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+        StartRegBtn.setOnClickListener(view -> {
 
-                EditText edit_name = (EditText)findViewById(R.id.inputName);
-                Student.getInstance().setName(edit_name.getText().toString());
-
-                Intent intent = new Intent(NameActivity.this, ProfileActivity.class);
-                startActivity(intent);
-            }
+            EditText edit_name = findViewById(R.id.inputName);
+            Student.getInstance().setName(edit_name.getText().toString());
+            EditText edit_ID = findViewById(R.id.inputID);
+            Student.getInstance().setId(edit_ID.getText().toString());
+            Intent intent = new Intent(NameActivity.this, ProfileActivity.class);
+            startActivity(intent);
         });
 
     }

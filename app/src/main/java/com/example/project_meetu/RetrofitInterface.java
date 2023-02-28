@@ -14,7 +14,7 @@ public interface RetrofitInterface {
      * @return returned student information
      */
     @POST("/login")
-    Call<Student> executeLogin(@Body HashMap<String, String> map);
+    Call<LoginResult> executeLogin(@Body HashMap<String, String> map);
 
     /**
      * Signup HTTP protocol for transporting information to Sql Database
@@ -24,22 +24,22 @@ public interface RetrofitInterface {
     @POST("/signup")
     Call<Void> executeSignup (@Body HashMap<String, String> map);
 
-    /**
-     * Generate HTTP protocol for Mapped student lists from Sql Database
-     * @param map: input of each equal category
-     * @return other student information from mapped list
-     */
-    @POST("./generate")
-    Call<List<String>> executeGenerate (@Body HashMap<String, String> map);
-
-
-    /**
-     * Find HTTP protocol for Find student information for Wisconsin Student ID
-     * @param map: input Wisconsin Student ID
-     * @return student having inputted ID from Sql Database
-     */
-    @POST("./find")
-    Call<Student> executeFind (@Body HashMap<String, String> map);
+//    /**
+//     * Generate HTTP protocol for Mapped student lists from Sql Database
+//     * @param map: input of each equal category
+//     * @return other student information from mapped list
+//     */
+//    @POST("/generate")
+//    Call<List<String>> executeGenerate (@Body HashMap<String, String> map);
+//
+//
+//    /**
+//     * Find HTTP protocol for Find student information for Wisconsin Student ID
+//     * @param map: input Wisconsin Student ID
+//     * @return student having inputted ID from Sql Database
+//     */
+//    @POST("/find")
+//    Call<Student> executeFind (@Body HashMap<String, String> map);
 
 
 
