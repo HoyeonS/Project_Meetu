@@ -3,14 +3,21 @@ package com.example.project_meetu;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.*;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.HashMap;
+import java.util.HashSet;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -68,20 +75,24 @@ public class StatusActivity extends AppCompatActivity {
 
             String[] c = {"major", "age", "space1", "space2", "living", "language", "food", "Hobby"};
             HashMap<String, String> map = new HashMap<>();
-            List<String> beforeFriends = new ArrayList<>();
+            Map<Integer, List<String>> beforeFriends = new HashMap<>();
 
             for(int i = 0; i < 8; i++){
+
+                int score = 10 - i; //score based on category
 
                 map.put(c[i], Student.getInstance().profile_info[i]);
 
                 Call<List<String>> call = retrofitInterface.executeGenerate(map);
 
+                beforeFriends.put(score, new ArrayList<String>());
+
                 call.enqueue(new Callback<List<String>>() {
                     @Override
                     public void onResponse(Call<List<String>> call, Response<List<String>> response) {
                         if(response.code() == 200){
-                            for(int j = 0; j < 10; j++){
-                                beforeFriends.add(response.body().get(j));
+                            for(int j = 0; j < response.body().size(); j++){
+                                beforeFriends.get(score).add(response.body().get(j));
                             }
                         }else if(response.code() == 400){
                             Toast.makeText(StatusActivity.this, "Wrong Credentials CODE # 1",
@@ -100,7 +111,44 @@ public class StatusActivity extends AppCompatActivity {
                     }
                 });
             }
+            List<String> friendList = new ArrayList<>();
+            HashMap<String, Integer> scoreList = new HashMap<>();
+
+            for(Map.Entry<Integer, List<String>> e: beforeFriends.entrySet()){
+                List<String> checkList = e.getValue();
+                Integer scr = e.getKey();
+                for(String check_id: checkList){
+                    scoreList.put(check_id, scoreList.getOrDefault(check_id, 0) + scr);
+                }
+            }
+
+            List<Map.Entry<String, Integer> > tempList = new LinkedList<Map.Entry<String, Integer> >(scoreList.entrySet());
+            Collections.sort(tempList, new Comparator<Map.Entry<String, Integer>>() {
+                public int compare(Map.Entry<String, Integer> o1,
+                                   Map.Entry<String, Integer> o2)
+                {
+                    return -1 * (o1.getValue()).compareTo(o2.getValue());
+                }
+            });
+
+            for(int i = 0; i < 10; i++){
+                friendList.add(tempList.get(i).getKey());
+            }
+
+            //friendList == generated total list (SIZE = 10)!!
+
+
+
+
+
+
+
+
         });
+
+
+
+
 
         BtnDeveloperContact.setOnClickListener(new View.OnClickListener() {
             @Override
