@@ -33,13 +33,13 @@ public interface RetrofitInterface {
     Call<List<String>> executeGenerate (@Body HashMap<String, String> map);
 
 
-//    /**
-//     * Find HTTP protocol for Find student information for Wisconsin Student ID
-//     * @param map: input Wisconsin Student ID
-//     * @return student having inputted ID from Sql Database
-//     */
-//    @POST("/find")
-//    Call<Student> executeFind (@Body HashMap<String, String> map);
+    /**
+     * Find HTTP protocol for Find student information for Wisconsin Student ID
+     * @param map: input Wisconsin Student ID
+     * @return student having inputted ID from Sql Database
+     */
+    @POST("/find")
+    Call<Student> executeFind (@Body HashMap<String, String> map);
 
 
 

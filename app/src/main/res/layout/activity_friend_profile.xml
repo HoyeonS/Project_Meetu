@@ -65,6 +65,7 @@
             tools:ignore="HardcodedText" />
 
         <TextView
+            android:id="@+id/newFriend_major"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text= "computer science"
@@ -108,6 +109,7 @@
             tools:ignore="HardcodedText" />
 
         <TextView
+            android:id="@+id/newFriend_age"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="80dp"
@@ -151,6 +153,7 @@
             tools:ignore="HardcodedText" />
 
         <TextView
+            android:id="@+id/newFriend_area"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text= "Herb"
@@ -194,6 +197,7 @@
             tools:ignore="HardcodedText" />
 
         <TextView
+            android:id="@+id/newFriend_sp1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text= "College Library"
@@ -237,6 +241,7 @@
             tools:ignore="HardcodedText" />
 
         <TextView
+            android:id="@+id/newFriend_sp2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text= "Business Library"
@@ -272,7 +277,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text= "MBTI"
+            android:text= "Food"
             android:textStyle="bold"
             android:textColor="#b93232"
             android:textSize="20sp"
@@ -280,9 +285,10 @@
             tools:ignore="HardcodedText" />
 
         <TextView
+            android:id="@+id/newFriend_food"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text= "ISFP"
+            android:text= "Pizza"
             android:textColor="#b93232"
             android:textSize="20sp"
             android:layout_marginStart="65dp"
@@ -323,6 +329,7 @@
             tools:ignore="HardcodedText" />
 
         <TextView
+            android:id="@+id/newFriend_lang"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text= "English"
@@ -366,6 +373,7 @@
             tools:ignore="HardcodedText" />
 
         <TextView
+            android:id="@+id/newFriend_hobby"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text= "Soccer"

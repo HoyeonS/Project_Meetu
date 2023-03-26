@@ -136,6 +136,7 @@ public class StatusActivity extends AppCompatActivity {
             }
 
             //friendList == generated total list (SIZE = 10)!!
+            Friends.getInstance().setFriends_id(friendList);
 
 
 
@@ -158,17 +159,5 @@ public class StatusActivity extends AppCompatActivity {
             }
         });
     }
-
-//    private HashMap<String, String> generateList(){
-//
-//        HashMap<String, String> map = new HashMap<>();
-//        String[] c = {"major", "age", "space1", "space2", "living", "language", "food", "Hobby"};
-//        for(int i = 0; i < 8; i++){
-////            while(i< 8){
-////            map.put("index", i);
-//            map.put(c[i], Student.getInstance().profile_info[i]);
-//        }
-//        return  map;
-//    }
 
 }
