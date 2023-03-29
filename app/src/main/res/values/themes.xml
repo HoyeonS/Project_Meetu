@@ -2,7 +2,7 @@
     <!-- Base application theme. -->
     <style name="Theme.Project_meetu" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">#b93232</item>
+        <item name="colorPrimary">#C5050C</item>
         <item name="colorPrimaryVariant">#eb5454</item>
         <item name="colorOnPrimary">#ffffff</item>
         <!-- Secondary brand color. -->

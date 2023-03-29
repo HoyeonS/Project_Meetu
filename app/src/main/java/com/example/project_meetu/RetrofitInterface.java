@@ -8,13 +8,16 @@ import retrofit2.http.Body;
 import retrofit2.http.POST;
 public interface RetrofitInterface {
 
+    @POST("/verification")
+    Call<LoginResult> executeVerification(@Body HashMap<String, String> map);
+
     /**
      * Login HTTP protocol for calling information from Login
      * @param map: input of Wisconsin Student ID
      * @return returned student information
      */
     @POST("/login")
-    Call<Student> executeLogin(@Body HashMap<String, String> map);
+    Call<LoginResult> executeLogin(@Body HashMap<String, String> map);
 
     /**
      * Signup HTTP protocol for transporting information to Sql Database
@@ -29,7 +32,7 @@ public interface RetrofitInterface {
      * @param map: input of each equal category
      * @return other student information from mapped list
      */
-    @POST("./generate")
+    @POST("/generate")
     Call<List<String>> executeGenerate (@Body HashMap<String, String> map);
 
 
@@ -38,7 +41,7 @@ public interface RetrofitInterface {
      * @param map: input Wisconsin Student ID
      * @return student having inputted ID from Sql Database
      */
-    @POST("./find")
+    @POST("/find")
     Call<Student> executeFind (@Body HashMap<String, String> map);
 
 

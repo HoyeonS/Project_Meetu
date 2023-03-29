@@ -1,6 +1,7 @@
 package com.example.project_meetu;
 
 import android.app.Application;
+import android.net.Uri;
 
 public class Student extends Application {
 
@@ -20,7 +21,9 @@ public class Student extends Application {
     String contact_info; //Contact information
     String introduction; //introduction information
     String student_id; //Wisconsin ID for students
+    Uri photo;
     public static Student instance = new Student(); //instance for user
+
 
     private int priority;
 
@@ -119,6 +122,10 @@ public class Student extends Application {
     public String getId() {
         return this.student_id;
     }
+
+    public Uri getPhoto() {return this.photo; }
+
+    public void setPhoto(Uri photo) {this.photo = photo; }
 
     /**
      * Use for pending algorithm *it will be
