@@ -18,6 +18,15 @@
         android:theme="@style/Theme.Project_meetu"
         tools:targetApi="31">
         <activity
+            android:name=".TempActivity"
+            android:exported="false"
+            android:label="@string/title_activity_temp"
+            android:theme="@style/Theme.Project_meetu.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".LoginActivity"
             android:exported="false">
             <meta-data
